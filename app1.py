@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 model = load_model(r'Stock Prediction using Model.keras')
 
 st.header('Stock Market Predictor')
-stock = st.text_input('Enter Stock Symbol', 'TSLA')
+stock = st.text_input('Enter Stock Symbol', 'AAPL')
 
 # Calculate date range for data
 end = datetime.now().date()
